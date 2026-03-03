@@ -45,6 +45,10 @@ body{
     background-color: transparent;
     border: none;
 }
+.navbar-hero .navbar .mid button:hover{
+  color: rgb(23, 172, 231);
+}
+
 .navbar-hero .navbar .right {
     display: flex;
     width: 16%;
