@@ -1,0 +1,394 @@
+*,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/*navbar-hero*/
+.navbar-hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(199, 0, 0, 0.3)), url("https://4kwallpapers.com/images/walls/thumbs_3t/25038.jpg");
+    background-size: cover;
+}
+/*navbar*/
+.navbar-hero .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+}
+.navbar-hero .navbar .left {
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;    
+    width: 70px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-hero .navbar .mid {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+    width: 33%;
+}
+
+.navbar-hero .navbar .mid button {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.navbar-hero .navbar .right {
+    display: flex;
+    width: 16%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+/*hero section style*/
+.hero-sec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(199, 0, 0, 0.3)), url("https://4kwallpapers.com/images/walls/thumbs_3t/25038.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+.hero-sec .sec-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+    background-color: transparent;
+}
+.hero-sec .sec-left .hero-heading {
+    font-size: 70px;
+    color: rgb(240, 11, 11);
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 30px;
+    width: 40%;
+    background-color: transparent;
+}
+.hero-sec .stg{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  gap: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.hero-sec .stg .a{
+  width: 50px;
+  color: white;
+  gap: 10px;
+  background-color: transparent;
+}
+.hero-sec .stg .b{
+  width: 30px;
+  color: white;
+  background-color: red;
+  margin-right: 15px;
+  gap: 10px;
+}
+.hero-sec .stg .c{
+  width: 100px;
+  color: white;
+  gap: 10px;
+  background-color: transparent;
+}
+.hero-sec .sec-left .detail {
+    font-size: 20px;
+    text-transform: capitalize;
+    gap: 30px;
+    font-weight: 200px;
+    color: white;
+    background-color: transparent;
+}
+.hero-sec .sec-left .btn{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 80%;
+  background-color: transparent;
+}
+
+.hero-sec .sec-left .btn .a-tag-btn {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 20%;
+}
+
+
+.hero-sec .sec-left .h-btn {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid white;
+    width: 20%;
+}
+.hero-sec .sec-right {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  width: 50%;
+  height: 55vh;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+.hero-sec .sec-right .right-main{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+  background-color: transparent;
+}
+/*cards*/
+.hero-sec .sec-right .cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: center;
+    background-color: transparent;
+}
+.hero-sec .sec-right .cards .card-3{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 45vh;
+    justify-content: center;
+    padding-top: 9px;
+    background-color: transparent;
+}
+.hero-sec .sec-right .cards .card-3 img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.hero-sec .sec-right .cards .card-2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    background-color: transparent;
+}
+.hero-sec .sec-right .cards .card-2 img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+.hero-sec .sec-right .cards .card-1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    background-color: transparent;
+}
+.hero-sec .sec-right .cards .card-1 img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+/* grid  */
+.g-sec{
+  display: grid;
+  /* grid-template-columns: 1fr  1fr; */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px 1px;
+}
+.g-sec .r-1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-1 .a img{
+  width: 100%;
+  height: 50vh;
+}
+.g-sec .r-2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-2 .b img{
+  width: 100%;
+  height: 50vh;
+}
+.g-sec .r-3{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-3 .c img{
+  width: 100%;
+  height: 50vh;
+}
+.g-sec .r-4{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-4 .d img{
+  width: 100%;
+  height: 50vh;
+}
+.g-sec .r-5{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-5 .e img{
+  width: 100%;
+  height: 50vh;
+}
+.g-sec .r-6{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  gap: 5px;
+}
+.g-sec .r-6 .f img{
+  width: 100%;
+  height: 50vh;
+}
+/* footer sect */
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.788)), url(https://4kwallpapers.com/images/wallpapers/one-piece-netflix-3840x2160-12664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.footer-sec .tabs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 0;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-sec .tabs .section-1{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+    padding: 0 10px;
+}
+.footer-sec .tabs .section-1 button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    width: 80%;
+    border: none;
+}
+.footer-sec .tabs .section-1 button:hover{
+  color: rgb(23, 172, 231);
+}
+
+.footer-sec .tabs .section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 5px;
+    padding: 0 10px;
+}
+.footer-sec .tabs .section-2 button{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(133, 127, 127);
+    background-color: transparent;
+    width: 80%;
+    border: none;
+}
+.footer-sec .tabs .section-2 button:hover{
+  color: rgb(23, 172, 231);
+}
+.footer-sec .tabs .section-3 {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 5px;
+    padding: 0 10px;
+}
+.footer-sec .tabs .section-3 button{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(133, 127, 127);
+    background-color: transparent;
+    width: 80%;
+    border: none;
+}
+.footer-sec .tabs .section-3 button:hover{
+  color: rgb(23, 172, 231);
+}
+.footer-sec .copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 50px;
+    padding: 20px 0;
+    background-color: transparent;
+    color: white;
+}
+
+
+
