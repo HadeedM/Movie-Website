@@ -21,6 +21,8 @@ body{
     justify-content: space-between;
     background-color: transparent;
     position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .navbar-hero .navbar .left {
     display: flex;
@@ -51,10 +53,23 @@ body{
 
 .navbar-hero .navbar .right {
     display: flex;
-    width: 16%;
+    width: 20%;
     padding: 10px;
     margin: 5px;
     color: white;
+}
+.navbar-hero .navbar .right .input-div{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+.navbar-hero .navbar .right .input-div .style{
+    color: white;
+    background-color: rgb(29, 28, 28);
+    border: none;
+    padding: 8px;
 }
 /*hero section style*/
 .hero-sec {
@@ -317,6 +332,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    background-position: center;
 }
 .footer-sec .tabs{
     display: flex;
