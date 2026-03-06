@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(199, 0, 0, 0.3)), url("https://4kwallpapers.com/images/walls/thumbs_3t/25038.jpg");
+    background-image: linear-gradient(rgb(2, 2, 2), rgba(199, 0, 0, 0.555)), url("https://4kwallpapers.com/images/walls/thumbs_3t/25038.jpg");
     background-size: cover;
 }
 /*navbar*/
@@ -61,7 +61,7 @@ body{
 .navbar-hero .navbar .right .input-div{
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     color: white;
 }
@@ -72,25 +72,23 @@ body{
     padding: 8px;
 }
 /*hero section style*/
-.hero-sec {
+.navbar-hero .hero-sec {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100vh;
     justify-content: space-between;
-    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(199, 0, 0, 0.3)), url("https://4kwallpapers.com/images/walls/thumbs_3t/25038.jpg");
-    background-size: cover;
     align-items: center;
 }
 
-.hero-sec .sec-left {
+.navbar-hero .hero-sec .sec-left {
     display: flex;
     flex-direction: column;
     width: 50%;
     padding: 15px;
     background-color: transparent;
 }
-.hero-sec .sec-left .hero-heading {
+.navbar-hero .hero-sec .sec-left .hero-heading {
     font-size: 70px;
     color: rgb(240, 11, 11);
     text-transform: capitalize;
@@ -178,6 +176,7 @@ body{
   font-weight: bold;
   width: 50%;
   height: 55vh;
+  margin: 5px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.74);
 }
@@ -322,6 +321,7 @@ body{
   width: 100%;
   height: 50vh;
 }
+
 /* footer sect */
 .footer-sec{
     display: flex;
